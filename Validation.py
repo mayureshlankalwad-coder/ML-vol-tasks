@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import sympy as sm
 data=pd.read_csv("movie_test_data.csv")
-print(data.info())
+
 
 w1,w2,b=0.75154176,1.2816427,-10.0010114754160
 def sigmoid(x):
